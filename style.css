@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    animation: color 4s infinite linear;
+}
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text{
+    border: solid 3px black;
+    width: 200px;
+    margin-left: 30px;
+    height: 150px;
+    font-size: larger;
+    margin: 20px;
+}
+.jogo{
+    margin-right: 75px;
+    font-size: x-large; 
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+td{
+    box-shadow: 2px 2px 2px;
+    font-size:xx-large;
+}
